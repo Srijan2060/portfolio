@@ -14,7 +14,7 @@ phone no: 9867285932</br>
 mail address: dhunganasrijan@gmail.com </br>
 
 
-<FORM action="mailto:you@yourdomain.com" method="post" enctype="text/plain">
+<FORM action="mailto: dhunganasrijan@gmail.com" method="post" enctype="text/plain">
 <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="4" WIDTH="90%">
 <TR>
 <TD width="30%"><DIV align="right">
