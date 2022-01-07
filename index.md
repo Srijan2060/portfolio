@@ -32,6 +32,8 @@ Search Bar
  const win = window.open(url, '_blank');
  win.focus(); } f.addEventListener('submit', submitted);
  </script>
+</body>
+<body>
  
 <b>
 MERO NAME CHAI SRIJAN DHUNGANA HO. YO WEBSITE TAPAILE JHUKKIYERA MATRAI KHOLNU BHAYEKO HOLA. THIS IS UNDER DEVELOPMENT BHANDA HUNXA AHILEKO LAGI. KAHILE DEVELOP HUNE HO THA XAINA🤣🤣
