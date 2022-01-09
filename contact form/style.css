@@ -32,12 +32,12 @@ body {
     
   .form-control
     {
-      width: 400px;
+      width: 350px;
       background: transparent;
       border: none;
       outline: none;
       border-bottom: 1px solid gray;
-      color: #fff;
+      color: darkblue;
       font-size: 18px;
       margin-bottom: 16px;
       
