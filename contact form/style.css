@@ -5,6 +5,7 @@ body {
       background-size: cover;
       background-position: center;
       font-family: sans-serif;
+      user-select: none;
 }
   .contact-title
       {
@@ -78,6 +79,7 @@ body {
      max-width:450px;
      margin:auto;
      border-radius: 25px;
+     margin-bottom: 20px;
    }
    
    .msg{
