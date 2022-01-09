@@ -9,10 +9,10 @@ body {
 }
   .contact-title
       {
-        margin-top: 100px;
-        color: #fff;
+        margin-top: 50px;
+        color: #333;
         text-transform: uppercase;
-        transition: all 4s ease-in-out;
+        
       }
     .contact-title h1
       {
@@ -27,7 +27,7 @@ body {
   form
     {
       margin-top: 50px;
-      transition: all 4s ease-in-out
+      
       
     }
     
@@ -93,8 +93,9 @@ body {
      border-width: 10px;
      border-radius: 25px;
      max-width:500px;
-     margin:auto;
+     margin: auto;
      color: blue;
-     margin-top: 10%;
+     margin-top: 40%;
+     transition: all 1.5s ease-in-out;
   
    }
