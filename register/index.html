@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ 
+  
+  <div class="container">
+
+      <div class="card">
+        <div class="innerbox" id="card">
+          
+          <div class="card-front">
+            <h2> Login </h2>
+           <form>
+             <input type="email" class="input-box" placeholder="Your e-mail id" required><br>
+             <input type="password" class="input-box" placeholder="Password" required><br>
+             <button type="submit" class="submit-btn">Submit</button><br>
+             <input type="checkbox"><span>Remember me</span>
+           </form>
+           <button type="button" class="btn" onclick="openRegister()">I'm new here</button>
+           <a href="">FORGOT PASSWORD</a>
+          </div>
+          
+          <div class="card-back">
+             <h2> Register </h2>
+           <form>
+             <input type="text" class="input-box" placeholder="Your name" required><br>
+             
+             <input type="email" class="input-box" placeholder="Your e-mail id" required><br>
+             <input type="password" class="input-box" placeholder="Password" required><br>
+             <button type="submit" class="submit-btn">Submit</button><br>
+             <input type="checkbox"><span>Remember me</span>
+           </form>
+           <button type="button" class="btn" onclick="openLogin()">I've an account</button>
+           <a href="">FORGOT PASSWORD</a>
+          </div>
+          
+        </div>
+      </div>
+  </div>
+  <script>
+    var card= document.getElementById("card");
+    function openLogin(){
+      card.style.transform = "rotateY(0deg)";
+    }
+    function openRegister(){
+      card.style.transform = "rotateY(180deg)";
+      card.style.transformStyle= "preserve-3d";
+    }
+  </script>
+  
+</body>
+</html>
