@@ -21,7 +21,7 @@
    
    mail($to, $email_subject, $email_body, $headers) or die("Error!");
    
-   header("Location: index.html");
+   header('Location: http://srijandhungana.com.np/');
 
 
 ?>
