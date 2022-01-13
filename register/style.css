@@ -43,7 +43,7 @@
   background-image: linear-gradient(rgba(0,0,100,0.8));
   padding:55px;
   box-sizing: border-box;
-  backface-visibility:hidden;
+  backface-visibility: hidden;
 }
 
 
