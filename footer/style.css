@@ -1,13 +1,10 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'poppins', sans-serif;
   box-sizing: border-box;
 }
 
-body{
-  background: #eef8ff;
-}
+
 
 footer{
   width: 100%;
@@ -18,10 +15,11 @@ footer{
   padding: 100px 0 30px;
   border-top-left-radius: 125px;
   font-size: 13px;
-  line-height: 20px
+  line-height: 20px;
+  font-family: 'poppins', sans-serif;
 }
 
-.row{
+.rowf{
   width: 85%;
   margin: auto;
   display: flex;
@@ -30,27 +28,27 @@ footer{
   justify-content: space-between;
 }
 
-.col{
+.colf{
   flex-basis: 25%;
   padding: 10px;
 }
 
-.col:nth-child(2), .col:nth-child(3){
+.colf:nth-child(2), .colf:nth-child(3){
   flex-basis:15%;
 }
 
-.logo{
+.logof{
   width: 80px;
   margin-bottom: 30px;
 }
 
-.col h3{
+.colf h3{
   width: fit-content;
   margin-bottom: 40px;
   position: relative;
 }
 
-.email-id{
+.email-idf{
   width: fit-content;
   border-bottom: 1px solid #ccc;
   margin: 20px 0;
@@ -100,7 +98,7 @@ form button .fas{
   color:#ccc;
 }
 
-.social-icons .fab{
+.social-iconsf .fab{
   width:40px;
   height: 40px;
   border-radius: 50% ;
@@ -120,12 +118,12 @@ hr{
   margin: 20px auto;
 } 
 
-.copyright{
+.copyrightf{
   text-align: center;
   
 }
 
-.underline{
+.underlinef{
   width:100%;
   height:5px;
   background: #767676;
@@ -136,7 +134,7 @@ hr{
   overflow: hidden;
 }
 
-.underline span{
+.underlinef span{
   width:15px;
   height: 100%;
   background: #fff;
@@ -161,10 +159,10 @@ hr{
   footer{
     bottom:unset;
   }
-  .col{
+  .colf{
     flex-basis:100%;
   }
-  .col:nth-child(2), .col:nth-child(3){
+  .colf:nth-child(2), .col:nth-child(3){
     flex-basis: 100%
   }
 }
