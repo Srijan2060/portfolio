@@ -12,7 +12,9 @@ body{
 
 .header{
    height:100vh;
+  margin-bottom: 40%; 
 }
+
 
 .navbar-style{
    box-shadow: 0 5px 10px #efefef;
@@ -72,12 +74,31 @@ a.btn:hover{
   width:380px;
 }
 
+/*------search------*/
+.margn{
+  margin-top:-10%;
+}
+.searchbox{
+  margin-left: 103%;
+  margin-top: 2.1%
+  
+  
+}
+@media(max-width:700px){
+  .searchbox{
+    margin-left: 310px;
+    margin-top: -9%
+   
+  }
+  .margn{
+    margin-top: auto;
+  }
+}
 
-
+/*--------------------------*/
 
 footer{
   width: 100%;
-  position: absolute;
   bottom: 0;
   background: linear-gradient(to right, #00093c, #2d0b00);
   color: #fff;
@@ -87,6 +108,8 @@ footer{
   line-height: 20px;
   font-family: 'poppins', sans-serif;
 }
+
+
 
 .rowf{
   width: 85%;
@@ -223,7 +246,7 @@ hr{
   }
 }
 
-@media(max-width:700px)
+@media(max-width:500px)
 {
   footer{
     bottom:unset;
@@ -235,6 +258,7 @@ hr{
   .colf:nth-child(2), .col:nth-child(3){
     flex-basis: 0%;
   }
+  
 }
 
 .viewcount{
