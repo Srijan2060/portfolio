@@ -1,3 +1,19 @@
+-----------/format for all pages/-----------------
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
 <!DOCTYPE html>
 <html>
 
@@ -5,10 +21,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
-    Search Page
+    The home page
   </title>
   <link rel="stylesheet" type="text/css" href="/style.css">
-  <link rel="stylesheet" type="text/css" href="/*experiment/style.css">
   
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -20,8 +35,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
  <script src="https://kit.fontawesome.com/6ae66e54b6.js"></script>
- 
-   
  
 </head>
 
@@ -39,9 +52,7 @@
             </button>
           <a href="/index.html"> <img class="logo" src="/images/logo1.png"></a>
         </div>
-         <div class="searchbox">
-       <a href=""><i class="fas fa-search"></i></a>
-     </div>
+
         <div class="collapse navbar-collapse margn" id="menuicon">
           
          <ul class="nav navbar-nav navbar-right">
@@ -51,36 +62,23 @@
             <li> <a href="">Contents</a></li>
            <li> <a href="">Gallery</a></li>
            <li> <a href="/register/index.html"> Login</a></li>
+           <li> <a href =""> Search </a> </li>
           
         
           </ul>
         </div>
       </div>
       </nav>
+     
       
       
-      
-      
-      
-      
-      <div class="srchtop">
-         Your search for "**"
-        <div class="srchtop2">
-          Matched ... results
+
+          
+          
         </div>
       </div>
       
     </header>
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
     
     
     
@@ -113,7 +111,6 @@
           <li1><a href="">About us</a></li1><br>
           <li1><a href="">Features</a></li1><br>
           <li1><a href="">Contacts</a></li1><br>
-          <li1><a href="">Search</a></li1><br>
         </ul>
       </div>
       <div class="colf">
@@ -137,12 +134,6 @@
     
       
     </footer>
-    
-    
-    
-    
-    
-   
 
 </body>
 
