@@ -2,6 +2,9 @@ body{
   user-select: none;
 }
 
+.nav1{
+  font-weight: bolder;
+}
 
 
 *{
@@ -278,3 +281,4 @@ hr{
 #container1 ul li:hover > ul{
   display: block;
 }
+
